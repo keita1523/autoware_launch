@@ -7,7 +7,8 @@
       is_publishing_object_clearance_map: false # publish clearance map as nav_msgs::OccupancyGrid
       is_publishing_area_with_objects: false # publish occupancy map as nav_msgs::OccupancyGrid
 
-      is_stopping_if_outside_drivable_area: true # stop if the ego's footprint will be outside the drivable area
+      # TODO:temporary solution
+      is_stopping_if_outside_drivable_area: false # stop if the ego's footprint will be outside the drivable area
 
       # show
       is_showing_debug_info: false

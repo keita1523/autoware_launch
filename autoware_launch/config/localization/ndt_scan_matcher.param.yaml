@@ -15,7 +15,7 @@
     step_size: 0.1
 
     # The ND voxel grid resolution
-    resolution: 2.0
+    resolution: 1.0
 
     # The number of iterations required to calculate alignment
     max_iterations: 30
@@ -30,7 +30,7 @@
 
     # If converged_param_type is 1
     # Threshold for deciding whether to trust the estimation result
-    converged_param_nearest_voxel_transformation_likelihood: 2.3
+    converged_param_nearest_voxel_transformation_likelihood: 1.0
 
     # The number of particles to estimate initial pose
     initial_estimate_particles_num: 100
