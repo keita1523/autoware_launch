@@ -11,15 +11,14 @@
     stop_planner:
       # params for stop position
       stop_position:
-        max_longitudinal_margin: 5.0         # stop margin distance from obstacle on the path [m]
-        min_longitudinal_margin: 5.0         # stop margin distance when any other stop point is inserted in stop margin [m]
+        max_longitudinal_margin: 0.2         # stop margin distance from obstacle on the path [m]
+        min_longitudinal_margin: 0.1         # stop margin distance when any other stop point is inserted in stop margin [m]
         hold_stop_margin_distance: 0.0       # the ego keeps stopping if the ego is in this margin [m]
 
       # params for detection area
       detection_area:
         lateral_margin: 0.0                  # margin of vehicle footprint [m]
-        # TODO:temporary solution
-        step_length: 0.01                    # step length for pointcloud search range [m]
+        step_length: 1.0                     # step length for pointcloud search range [m]
         extend_distance: 0.0                 # extend trajectory to consider after goal obstacle in the extend_distance [m]
 
 
